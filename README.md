@@ -14,4 +14,4 @@
 3. 保存直接使用" go run main.go" 来运行，最终结果会输出到当前屏幕。
 
 ## 联系我们
-如流群号 "5702992", 如流下载地址：https://infoflow.baidu.com/%
+如流群号 "5702992", 如流下载地址：https://infoflow.baidu.com/
