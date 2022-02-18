@@ -1,3 +1,3 @@
 module github.com/baidu/smartapp-openapi-go
 
-go 1.17
+go 1.13
