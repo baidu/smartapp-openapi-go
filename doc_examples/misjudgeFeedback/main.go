@@ -7,7 +7,6 @@ package main
 import (
 	"fmt"
 
-	// github.com/baidu/smartapp-openapi-go/openapi 为示例项目名，实际使用时需要替换为实际的项目名
 	"github.com/baidu/smartapp-openapi-go/openapi"
 )
 
