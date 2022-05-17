@@ -26,7 +26,7 @@ func main() {
 	}
 
 	AddOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefundVal := openapi.AddOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefund{
-		Amount: "1315", // 文档中对应字段：Amount，实际使用时请替换成真实参数
+		Amount: 1315, // 文档中对应字段：Amount，实际使用时请替换成真实参数
 		Product: []openapi.AddOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefundProductItem{
 			AddOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefundProductItemVal, // 文档中对应字段：Product，实际使用时请替换成真实参数
 		},
