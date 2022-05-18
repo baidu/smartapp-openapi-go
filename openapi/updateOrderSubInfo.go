@@ -25,7 +25,7 @@ type UpdateOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefundProductItem str
 	Quantity int64  `json:"Quantity"` // 售后商品数量
 }
 type UpdateOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefund struct {
-	Amount  string                                                                    `json:"Amount"`  // 退款总金额（单位：分），即100为1元。
+	Amount  int64                                                                     `json:"Amount"`  // 退款总金额（单位：分），即100为1元。
 	Product []UpdateOrderSubInfoRequestDataItemEXTSubsOrderItemsItemRefundProductItem `json:"Product"` // 售后商品列表
 }
 type UpdateOrderSubInfoRequestDataItemEXTSubsOrderItemsItem struct {
