@@ -7,7 +7,7 @@ const (
 	OPENAPIHOST = "openapi.baidu.com"
 	SPAPIHOST   = "spapi.baidu.com"
 	SDKLANG     = "Go"
-	SDKVERSION  = "1.0.8"
+	SDKVERSION  = "0.1.2"
 )
 
 // 网关错误响应结构体
