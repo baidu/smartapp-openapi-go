@@ -13,7 +13,7 @@ type SubscribeSendRequest struct {
 // 响应结构体
 
 type SubscribeSendResponsedata struct {
-	MsgKey string `json:"msg_key"` // 消息 id
+	MsgKey int64 `json:"msg_key"` // 消息 id
 }
 
 type SubscribeSendResponse struct {
