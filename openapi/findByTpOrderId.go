@@ -1,6 +1,5 @@
 package openapi
 
-
 // FindByTpOrderIDRequest 请求结构体
 type FindByTpOrderIDRequest struct {
 	AccessToken string // 接口调用凭证
@@ -12,12 +11,12 @@ type FindByTpOrderIDRequest struct {
 
 type FindByTpOrderIDResponsedata struct {
 	AppID         int64  `json:"appId"`         // 小程序appid
-	AppKey        int64  `json:"appKey"`        // 小程序appkey
+	AppKey        string `json:"appKey"`        // 小程序appkey
 	BizInfo       string `json:"bizInfo"`       // 业务扩展字段
 	Count         int64  `json:"count"`         // 数量
 	CreateTime    int64  `json:"createTime"`    // 创建时间
 	DealID        int64  `json:"dealId"`        // 跳转百度收银台支付必带参数之一
-	OpenID        int64  `json:"openId"`        // 小程序用户id
+	OpenID        string `json:"openId"`        // 小程序用户id
 	OrderID       int64  `json:"orderId"`       // 百度订单 ID
 	OriPrice      int64  `json:"oriPrice"`      // 原价
 	ParentOrderID int64  `json:"parentOrderId"` // 购物车订单父订单ID
