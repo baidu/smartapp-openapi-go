@@ -11,7 +11,7 @@ type FindByTpOrderIDRequest struct {
 
 type FindByTpOrderIDResponsedata struct {
 	AppID         int64  `json:"appId"`         // 小程序appid
-	AppKey        int64  `json:"appKey"`        // 小程序appkey
+	AppKey        string `json:"appKey"`        // 小程序appkey
 	BizInfo       string `json:"bizInfo"`       // 业务扩展字段
 	Count         int64  `json:"count"`         // 数量
 	CreateTime    int64  `json:"createTime"`    // 创建时间
